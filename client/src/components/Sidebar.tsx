@@ -1,5 +1,3 @@
-import { ChevronFirst } from "lucide-react";
-
 function Sidebar() {
     return (
         <aside className="h-screen">
@@ -11,7 +9,7 @@ function Sidebar() {
                         className="w-32"
                     />
                     <button className="p-1.5 rounded-lg hover:bg-gray-100">
-                        <ChevronFirst />
+                        ‹
                     </button>
                 </div>
             </nav>
